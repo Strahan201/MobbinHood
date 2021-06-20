@@ -1,0 +1,12 @@
+messages:
+  access-denied: '&cAccess denied!'
+  invalid-entity: '&c%entity% is not a valid entity type!'
+  invalid-qty: '&cThat is not a valid quantity!'
+  entitylist-header: '&aAvailable entities:%br%'
+  entitylist-data: '&6%entity%'
+  give-arrow: '&6Received %qty% &e%entity% &6arrow(s)!'
+  cfg-reload: '&eConfiguration reloaded!'
+  arrow-type-set: '&6Current mob arrow type is &e%type%'
+  arrow-mode: '&6Current shooting mode: %mode%'
+  mode-arrow-is-entity: 'arrow is entity'
+  mode-arrow-spawns-entity: 'arrow spawns entity'

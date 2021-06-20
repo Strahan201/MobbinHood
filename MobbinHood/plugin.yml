@@ -1,0 +1,8 @@
+name: MobbinHood
+author: Strahan
+main: com.sylvcraft.MobbinHood
+version: 1.0
+description: Shoot mobs from arrows
+commands:
+  mbh:
+    description: Plugin command
