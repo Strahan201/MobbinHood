@@ -22,6 +22,7 @@ public class ProjectileHit implements Listener {
     
     Location spawnLoc = e.getHitBlock().getRelative(e.getHitBlockFace()).getLocation().add(0.5,0,0.5);
     e.getHitBlock().getWorld().spawnEntity(spawnLoc, et);
+    e.getEntity().remove();
   }
 
 }

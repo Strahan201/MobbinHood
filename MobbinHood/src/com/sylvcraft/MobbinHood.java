@@ -106,6 +106,7 @@ public class MobbinHood extends JavaPlugin {
   }
   
   public EntityType getArrowEntity(ItemStack i) {
+    if (i == null) return null;
     if (!i.hasItemMeta()) return null;
     if (!i.getItemMeta().getPersistentDataContainer().has(arrowType, PersistentDataType.STRING)) return null;
     
@@ -119,6 +120,7 @@ public class MobbinHood extends JavaPlugin {
   }
   
   public Entity getArrowEntity(ItemStack i, EntityShootBowEvent e) {
+    if (i == null) return null;
     if (!i.hasItemMeta()) return null;
     if (!i.getItemMeta().getPersistentDataContainer().has(arrowType, PersistentDataType.STRING)) return null;
     
